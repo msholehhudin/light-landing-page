@@ -1,10 +1,11 @@
 import { Header } from "@/sections/Header";
+import { Hero } from "@/sections/Hero";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <div className="h-[300vh]">Test</div>
+      <Hero />
     </>
   );
 };

@@ -13,7 +13,7 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className="py-5 border border-red-500 ">
+      <div className="py-5 border border-red-500">
         <div className="container">
           <div className="flex justify-between items-center">
             <Image src={Logo} alt="Logo" height={40} width={40} />
