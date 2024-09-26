@@ -16,7 +16,7 @@ export const ProductShowcase = () => {
           Perawatan rutin alat elektronik penting untuk menjaga kinerja optimal
           dan memperpanjang masa pakai. Bersihkan dan periksa secara berkala
           untuk mencegah kerusakan, meningkatkan efisiensi, serta menghindari
-          biaya perbaikan
+          biaya perbaikan.
         </p>
       </div>
       <div className="relative">
