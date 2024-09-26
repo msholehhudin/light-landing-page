@@ -14,17 +14,17 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className="py-5 border border-red-500">
+      <div className="py-5 ">
         <div className="container">
           <div className="flex justify-between items-center">
             <Image src={Logo} alt="Logo" height={50} width={50} />
             <MenuIcon className="h-5 w-5 md:hidden" />
             <nav className="text-black/60 gap-6 md:flex hidden items-center">
-              <a href="#">About</a>
-              <a href="#">Feature</a>
-              <a href="#">Customers</a>
-              <a href="#">Updates</a>
-              <a href="#">Help</a>
+              <a href="#">Tentang Kami</a>
+              {/* <a href="#">Feature</a> */}
+              <a href="#">Testimoni</a>
+              {/* <a href="#">Updates</a> */}
+              {/* <a href="#">Help</a> */}
               <button className="bg-black text-white px-4 py-2 rounded-lg inline-flex items-center">
                 Hubungi Kami
               </button>

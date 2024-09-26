@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <section className="pt-8 pb-20 md:pt-5 md:pb-10 overflow-x-clip bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)]">
       <div className="container">
-        <div className="md:flex border border-red-500 items-center">
+        <div className="md:flex items-center">
           <div className="md:w-[478px]">
             <div className="text-sm rounded-lg border px-3 py-2 border-[#222]/10 inline-flex tracking-tight">
               Tegak Teguh Service
