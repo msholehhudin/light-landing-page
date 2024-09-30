@@ -15,14 +15,18 @@ export const Header = () => {
       </div>
 
       <div className="py-5 ">
-        <div className="container">
+        <div className="max-container padding-container">
           <div className="flex justify-between items-center">
-            <Image src={Logo} alt="Logo" height={50} width={50} />
+            <Image
+              src={Logo}
+              alt="Logo"
+              className="h-12 w-12 md:h-24 md:w-24"
+            />
             <MenuIcon className="h-5 w-5 md:hidden" />
-            <nav className="text-black/60 gap-6 md:flex hidden items-center">
+            <nav className="text-black/60 gap-6 md:flex regular-16 hidden items-center">
               <a href="#">Tentang Kami</a>
               {/* <a href="#">Feature</a> */}
-              <a href="#">Testimoni</a>
+              <a href="#">Layanan</a>
               {/* <a href="#">Updates</a> */}
               {/* <a href="#">Help</a> */}
               <button className="bg-black text-white px-4 py-2 rounded-lg inline-flex items-center">

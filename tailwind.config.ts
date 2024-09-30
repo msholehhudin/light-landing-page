@@ -12,6 +12,7 @@ const config: Config = {
       sm: "375px",
       md: "768px",
       lg: "1200px",
+      '3xl': '1680px',
     },
     extend: {
       container: {

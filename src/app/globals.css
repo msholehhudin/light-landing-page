@@ -31,4 +31,16 @@
     .desc{
         @apply text-xl mt-6 tracking-tight text-[#010D3E]
     }
+
+    .max-container {
+        @apply mx-auto max-w-[1440px];
+    }
+
+    .padding-container {
+        @apply px-6 lg:px-20 3xl:px-0;
+    }
+
+    .regular-16 {
+        @apply text-[16px] font-[400];
+      }
 }
