@@ -24,11 +24,8 @@ export const Header = () => {
             />
             <MenuIcon className="h-5 w-5 md:hidden" />
             <nav className="text-black/60 gap-6 md:flex regular-16 hidden items-center">
-              <a href="#">Tentang Kami</a>
-              {/* <a href="#">Feature</a> */}
-              <a href="#">Layanan</a>
-              {/* <a href="#">Updates</a> */}
-              {/* <a href="#">Help</a> */}
+              <a href="#about-us">Tentang Kami</a>
+              <a href="#services">Layanan</a>
               <button className="bg-black text-white px-4 py-2 rounded-lg inline-flex items-center">
                 Hubungi Kami
               </button>
