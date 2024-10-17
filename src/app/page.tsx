@@ -1,5 +1,6 @@
 import { AboutUs } from "@/sections/AboutUs";
 import { CallToAction } from "@/sections/CallToAction";
+import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
 import { Hero } from "@/sections/Hero";
 import { LogoTicker } from "@/sections/LogoTicker";
@@ -17,6 +18,7 @@ const Home = () => {
         <ProductShowcase />
         <Services />
         <CallToAction />
+        <Footer />
       </main>
     </>
   );

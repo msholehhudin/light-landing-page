@@ -8,10 +8,10 @@ export const CallToAction = () => {
       className="bg-gradient-to-b from-white to-[#D2DCFF] py-24 overflow-x-clip"
       id="consult"
     >
-      <div className="container">
-        <div className="relative">
+      <div className="container border border-yellow-300">
+        <div className="relative border border-red-500">
           <h2 className="title py-3">Jadwalkan Service Sekarang Juga</h2>
-          <p className="desc">
+          <p className="desc ">
             Konsultasikan dengan kami apa yang sedang anda butuhkan.
             Permasalahan akan terselesaikan dengan segera.
           </p>
