@@ -22,7 +22,7 @@ export const ProductShowcase = () => {
         </p>
       </div>
       <div className="relative">
-        <div className="border border-yellow-300 flex items-center justify-center px-6">
+        <div className=" flex items-center justify-center px-6">
           <Image
             src={ProductImg}
             alt="Product Showcase"
