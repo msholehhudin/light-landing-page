@@ -24,10 +24,12 @@ export const Hero = () => {
               lingkungan Anda nyaman sepanjang tahun.
             </p>
             <div className="flex gap-2 items-center mt-[30px]">
-              <button className="btn btn-primary">
-                {/* Schedule Service */}
-                Jadwalkan Service
-              </button>
+              <a href="#consult">
+                <button className="btn btn-primary">
+                  {/* Schedule Service */}
+                  Jadwalkan Service
+                </button>
+              </a>
               <button className="btn btn-text gap-1">
                 {/* <span>View Offers</span> */}
                 <span>Lihat Penawaran</span>
