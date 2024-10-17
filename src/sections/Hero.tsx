@@ -7,7 +7,7 @@ import noodleImage from "@/assets/noodle.png";
 export const Hero = () => {
   return (
     <section className="pt-8 pb-20 md:pt-5 md:pb-10 overflow-x-clip bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)]">
-      <div className="max-container padding-container border border-red-400">
+      <div className="max-container padding-container">
         <div className="md:flex items-center">
           <div className="md:w-[824px]">
             <div className="regular-16 rounded-lg border px-3 py-2 border-[#222]/10 inline-flex tracking-tight">
@@ -38,7 +38,7 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 border border-yellow-500 relative">
+          <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
             <Image
               src={CogImg}
               alt="Hero Img"
