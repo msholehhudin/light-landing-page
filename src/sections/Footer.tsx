@@ -25,7 +25,7 @@ export const Footer = () => {
           <SocialX />
         </div>
         <p className="mt-6">
-          &copy; 2024 Revingerz Media, Inc. All right reserved.
+          &copy; 2025 Revingerz Media, Inc. All right reserved.
         </p>
       </div>
     </footer>
