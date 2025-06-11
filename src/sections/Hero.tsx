@@ -1,8 +1,11 @@
+'use client'
+
 import ArrowIcon from "@/assets/arrow-right.svg";
 import Image from "next/image";
 import CogImg from "@/assets/cog.png";
 import cylinderImage from "@/assets/cylinder.png";
 import noodleImage from "@/assets/noodle.png";
+import {motion} from "framer-motion"
 
 export const Hero = () => {
   return (
@@ -39,8 +42,8 @@ export const Hero = () => {
           </div>
 
           <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
-            <Image
-              src={CogImg}
+            <motion.img
+              src={CogImg.src}
               alt="Hero Img"
               className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-6 lg:left-0"
             />

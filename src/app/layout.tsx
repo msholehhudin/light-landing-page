@@ -6,8 +6,8 @@ import { twMerge } from "tailwind-merge";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Light Landing Page",
-  description: "Template Created by Revingerzmedia",
+  title: "Tegak Teguh Teknik",
+  description: "Service AC area sekitar Malang",
 };
 
 export default function RootLayout({
