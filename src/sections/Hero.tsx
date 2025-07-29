@@ -15,7 +15,7 @@ export const Hero = () => {
       <div className="absolute top-40 right-20 w-3 h-3 bg-red-400 rounded-full animate-pulse delay-1000"></div>
       <div className="absolute bottom-32 left-1/4 w-1 h-1 bg-white rounded-full animate-pulse delay-500"></div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-container padding-container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="lg:flex items-center gap-12">
           <div className="lg:w-1/2 lg:pr-8">
             {/* Badge */}
