@@ -10,7 +10,7 @@ export const LogoTicker = () => {
         <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
           <div className="flex gap-14 flex-none">
             <Image src={alfaLogo} alt="Logo Alfa" className="logo-ticker-img" />
-            <Image src={alfaLogo} alt="Logo Alfa" className="logo-ticker-img" />
+            <Image src={indoLogo} alt="Logo Alfa" className="logo-ticker-img" />
             <Image src={alfaLogo} alt="Logo Alfa" className="logo-ticker-img" />
             <Image src={alfaLogo} alt="Logo Alfa" className="logo-ticker-img" />
             <Image src={alfaLogo} alt="Logo Alfa" className="logo-ticker-img" />
