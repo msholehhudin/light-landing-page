@@ -19,17 +19,17 @@ const stats = [
   },
   {
     icon: Users,
-    value: "[X]",
+    value: "~3",
     label: "Teknisi bersertifikasi",
   },
   {
     icon: Wrench,
-    value: "[X]+",
+    value: "350+",
     label: "Unit ditangani per tahun",
   },
   {
     icon: ShieldCheck,
-    value: "[X] Tahun",
+    value: "4+ Tahun",
     label: "Pengalaman di industri",
   },
 ];
@@ -108,9 +108,8 @@ const AboutUs = () => {
 
             {/* Description */}
             <p className="mt-6 max-w-xl text-base leading-7 text-neutral-600 md:text-lg">
-              Sejak{" "}
-              <span className="font-semibold text-neutral-900">[tahun]</span>,
-              Tegak Teguh Teknik menangani perawatan, instalasi, dan perbaikan
+              Sejak <span className="font-semibold text-neutral-900">2016</span>
+              , Tegak Teguh Teknik menangani perawatan, instalasi, dan perbaikan
               sistem AC serta kelistrikan untuk lembaga pendidikan, fasilitas
               kesehatan, perbankan, perhotelan, dan industri di Malang Raya.
             </p>

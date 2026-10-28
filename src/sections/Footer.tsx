@@ -84,7 +84,7 @@ const Footer = () => {
             <p className="max-w-sm text-sm leading-6 text-neutral-400">
               Melayani institusi pendidikan, kesehatan, perbankan, dan
               perhotelan di Malang Raya sejak{" "}
-              <span className="text-neutral-200">[tahun]</span>.
+              <span className="text-neutral-200">2016</span>.
             </p>
           </div>
 
@@ -105,14 +105,16 @@ const Footer = () => {
                   className="mt-0.5 h-4 w-4 flex-shrink-0 text-red-500"
                   strokeWidth={2}
                 />
-                <span>[email@tegakteguhteknik.com]</span>
+                <span>tegakteguhteknik@gmail.com</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <MapPin
                   className="mt-0.5 h-4 w-4 flex-shrink-0 text-red-500"
                   strokeWidth={2}
                 />
-                <span>[Alamat Kantor, Malang]</span>
+                <span>
+                  Jl. Raya Segaran RT 02 RW 10, Mujamil - Banjararum, Malang
+                </span>
               </li>
             </ul>
           </div>
@@ -151,7 +153,7 @@ const Footer = () => {
               © {new Date().getFullYear()} Tegak Teguh Teknik. Seluruh hak cipta
               dilindungi.
             </p>
-            <p>SIUP/NIB: [Nomor Izin Usaha]</p>
+            {/* <p>SIUP/NIB: [Nomor Izin Usaha]</p> */}
           </div>
 
           {/* Only keep these if the accounts are real and maintained */}
